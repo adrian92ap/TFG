@@ -17,7 +17,7 @@ public class HelloWorldAction extends Action {
 			HttpServletRequest request, HttpServletResponse response) throws 
 			Exception {
 		HelloWorldForm hwFrom = (HelloWorldForm) form;
-		hwFrom.setMessage("Hello World");
+		hwFrom.setMessage("Hello Oskar");
 		return mapping.findForward("success");
 	}
 }

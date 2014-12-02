@@ -9,6 +9,8 @@
 </head>
 <body>
 	<bean:write name="helloWorldForm" property="message"/>
+	<br>
+	<br>
 	<!--  <div id="map" style="width: 700px; height: 500px"></div>
 	
 	<script src="http://maps.google.com/maps/api/js?sensor=false&callback=init"></script>
