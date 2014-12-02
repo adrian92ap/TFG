@@ -8,8 +8,7 @@
 <title>Hello World</title>
 </head>
 <body>
-	<bean:write name="helloWorldForm" property="message"/>
-	<br>
+	<h1><bean:write name="helloWorldForm" property="message"/></h1>
 	<br>
 	<!--  <div id="map" style="width: 700px; height: 500px"></div>
 	
